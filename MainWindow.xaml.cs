@@ -20,6 +20,7 @@ namespace LABYRINTH
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Labyrinth _labyrinth;
         public MainWindow()
         {
             InitializeComponent();
@@ -28,8 +29,8 @@ namespace LABYRINTH
         protected override void OnContentRendered(EventArgs e)
         {
             base.OnContentRendered(e);
-            Labyrinth labyrinth = new Labyrinth(Canvas,10);
-            labyrinth.Generate();
+            this._labyrinth = new Labyrinth(Canvas,10);
+            this._labyrinth.Generate();
         }
 
         private void GenerateButton_OnClick(object sender, RoutedEventArgs e)
@@ -38,14 +39,13 @@ namespace LABYRINTH
             int size, x, y;
             try
             {
-                Labyrinth labyrinth;
                 if (Size.Text != "")
                 {  size = Int32.Parse(Size.Text);
-                   labyrinth = new Labyrinth(Canvas,size);
+                   this._labyrinth = new Labyrinth(Canvas,size);
                 }
                 else
                 {
-                    labyrinth = new Labyrinth(Canvas);
+                    this._labyrinth = new Labyrinth(Canvas);
                 }
                 
                 
@@ -53,11 +53,11 @@ namespace LABYRINTH
                 {
                     x = Int32.Parse(XEntryPoint.Text);
                     y = Int32.Parse(YEntryPoint.Text);
-                    labyrinth.Generate(x, y);
+                    this._labyrinth.Generate(x, y);
                 }
                 else
                 {
-                    labyrinth.Generate();
+                    this._labyrinth.Generate();
                 }
                 
                 
@@ -68,6 +68,11 @@ namespace LABYRINTH
                 MessageBox.Show(exception.Message);
             }
             
+        }
+
+        private void ResolveButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            this._labyrinth.Resolve();
         }
     }
 }

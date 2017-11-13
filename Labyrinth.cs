@@ -13,6 +13,9 @@ using System.Windows.Controls;
      {
          private Cell[,] cells;
          private Cell _entryPoint;
+         private Cell _endPoint;
+         private Stack<Cell> path = new Stack<Cell>();
+         private List<Cell> nogo = new List<Cell>();
  
          /// <summary>
          /// Create a graphical labyrinht with size * size area.
@@ -52,6 +55,9 @@ using System.Windows.Controls;
              
              currentCell = cells[x, y];
              this._entryPoint = currentCell;
+             this._endPoint = cells[0,0];
+             this._endPoint.HighlightAsExitPoint();
+             
              currentCell.HighlightAsEntryPoint();
              bool exit = false;
 
@@ -81,13 +87,51 @@ using System.Windows.Controls;
                      }
                  }
              }
-                
-             foreach (var cell in history)
-             {
-                 cell.Highlight();
-             }
+             
          }
 
+         
+         public void Resolve()
+         {
+             Cell currentCell = null;
+             Cell neighborCell = null; 
+             Random randomGen = new Random();
+
+             currentCell = this._entryPoint;
+             currentCell.HighlightAsEntryPoint();
+             bool exit = false;
+             while (exit == false)
+             {
+                 List<Cell> neigbors = this.GetPathNeigbors(currentCell);
+                 if (neigbors.Count > 0)
+                 {
+                     path.Push(currentCell);
+                     neighborCell = neigbors[randomGen.Next(neigbors.Count)];
+                     currentCell = neighborCell;
+                 }
+                 else
+                 {
+                     if (currentCell == this._endPoint)
+                     {
+                         exit = true;
+                     }
+                     else
+                     {
+                         nogo.Add(currentCell);
+                         currentCell = path.Pop();
+                     }
+                     
+                 }
+                 
+             }
+
+             foreach (var cell in path)
+             {
+                 cell.HighlightAsPathMember();
+                 this._entryPoint.HighlightAsEntryPoint();
+             }
+         }
+         
          /// <summary>
          /// Get the neighbors cells or the origin cell /!\ that has not been visited.
          /// </summary>
@@ -126,6 +170,47 @@ using System.Windows.Controls;
              return neighbors;
          }
 
+         public  List<Cell> GetPathNeigbors(Cell cell)
+         {
+             List<Cell> neighbors = new List<Cell>();
+             int y = cell.PosY;
+             int x = cell.PosX;
+
+             if (!cell.IsLeftWallRaised())
+             {
+                 if (!this.path.Contains(this.cells[x - 1, y]) && !this.nogo.Contains(this.cells[x - 1, y]))
+                 {
+                     neighbors.Add(this.cells[x - 1, y]);
+                 }
+             }
+             
+             if (!cell.IsRightWallRaised())
+             {
+                 if (!this.path.Contains(this.cells[x + 1, y]) && !this.nogo.Contains(this.cells[x + 1, y]))
+                 {                    
+                     neighbors.Add(this.cells[x + 1, y]);
+                 }
+             }
+             
+             if (!cell.IsUpperWallRaised())
+             {
+                 if (!this.path.Contains(this.cells[x, y + 1]) && !this.nogo.Contains(this.cells[x, y + 1]))
+                 {                     
+                     neighbors.Add(this.cells[x, y + 1]);
+                 }
+             }
+             
+             if (!cell.IsLowerWallRaised())
+             {
+                 if (!this.path.Contains(this.cells[x, y - 1]) && !this.nogo.Contains(this.cells[x, y - 1]))
+                 {                    
+                     neighbors.Add(this.cells[x, y - 1]);
+                 }
+             }
+             
+             return neighbors;
+         }
+         
         
          /// <summary>
          /// Break the walls between two cells. 

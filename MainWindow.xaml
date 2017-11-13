@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LABYRINTH"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="600">
+        Title="JULES LAURENT - LABYRINTH" Height="600" Width="600">
     <Grid x:Name="Grille">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="400" />
@@ -15,6 +15,7 @@
         <Canvas Grid.Column="0" x:Name="Canvas" ></Canvas>
         <Grid Grid.Column="1" x:Name="ControlsGrid">
             <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
@@ -40,6 +41,7 @@
                 <TextBox Grid.Column="3" x:Name="YEntryPoint"></TextBox>
             </Grid>
             <Button  Grid.Row="4" x:Name="GenerateButton" Click="GenerateButton_OnClick">GENERER</Button>
+            <Button  Grid.Row="5" x:Name="ResolveButton" Click="ResolveButton_OnClick">RESOUDRE</Button>
         </Grid>
         
     </Grid>
