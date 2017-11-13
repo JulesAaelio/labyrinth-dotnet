@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b40ae16c-2df0-40e5-bd79-63340e3ab23e" name="Default" comment="" />
+    <list default="true" id="b40ae16c-2df0-40e5-bd79-63340e3ab23e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.LABYRINTH/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LABYRINTH/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainWindow.xaml" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="MainWindow.xaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="84">
+              <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding>
                 <marker date="1510567439829" expanded="true" signature="0:496" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
                 <marker date="1510567439829" expanded="true" signature="452:486" ph="&lt;.../&gt;" />
@@ -24,11 +27,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainWindow.xaml.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="672">
+              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <marker date="1510566726190" expanded="true" signature="6:381" ph="..." />
                 <marker date="1510566726190" expanded="true" signature="402:851" ph="{...}" />
@@ -44,11 +60,10 @@
       <file leaf-file-name="Walls.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Walls.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="378">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <marker date="1510427909609" expanded="true" signature="6:69" ph="..." />
-                <marker date="1510427909609" expanded="true" signature="89:1269" ph="{...}" />
                 <marker date="1510427909609" expanded="true" signature="122:1267" ph="{...}" />
                 <marker date="1510427909609" expanded="true" signature="214:768" ph="{...}" />
                 <marker date="1510427909609" expanded="true" signature="524:675" ph="/* horizontalLine.HorizontalAlignment = HorizontalAlignment.Left; ... */" />
@@ -61,11 +76,10 @@
       <file leaf-file-name="Labyrinth.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Labyrinth.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
+            <state relative-caret-position="210">
               <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding>
                 <marker date="1510567419020" expanded="true" signature="6:212" ph="..." />
-                <marker date="1510567419020" expanded="true" signature="235:4732" ph="{...}" />
                 <marker date="1510567419020" expanded="true" signature="266:4729" ph="{...}" />
                 <marker date="1510567419020" expanded="true" signature="317:592" ph="/// Create a graphical labyrinht with size * size area. ... " />
                 <marker date="1510567419020" expanded="true" signature="644:976" ph="{...}" />
@@ -99,11 +113,10 @@
       <file leaf-file-name="Cell.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cell.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="2520">
               <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding>
                 <marker date="1510567419009" expanded="true" signature="6:160" ph="..." />
-                <marker date="1510567419009" expanded="true" signature="181:3894" ph="{...}" />
                 <marker date="1510567419009" expanded="true" signature="206:3892" ph="{...}" />
                 <marker date="1510567419009" expanded="true" signature="600:831" ph="{...}" />
                 <marker date="1510567419009" expanded="true" signature="921:997" ph="{...}" />
@@ -182,6 +195,7 @@
         <option value="$PROJECT_DIR$/Cell.cs" />
         <option value="$PROJECT_DIR$/Labyrinth.cs" />
         <option value="$PROJECT_DIR$/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -213,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -232,10 +245,12 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="README&#9;FILE&#9;file://C:/Users/Jules LAURENT/RiderProjects/Labyrinth/LABYRINTH/README.md" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -265,6 +280,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b40ae16c-2df0-40e5-bd79-63340e3ab23e" name="Default" comment="" />
@@ -272,12 +290,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510419338705</updated>
-      <workItem from="1510419339984" duration="17682000" />
+      <workItem from="1510419339984" duration="17829000" />
+      <workItem from="1510567997636" duration="75000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17682000" />
+    <option name="totallyTimeSpent" value="17904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,22 +315,22 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -328,13 +347,149 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <marker date="1510567439829" expanded="true" signature="0:496" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1510567439829" expanded="true" signature="452:486" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <marker date="1510566726190" expanded="true" signature="6:381" ph="..." />
+            <marker date="1510566726190" expanded="true" signature="402:851" ph="{...}" />
+            <marker date="1510566726190" expanded="true" signature="409:492" ph="/// Logique d'interaction pour MainWindow.xaml ... " />
+            <marker date="1510566726190" expanded="true" signature="537:849" ph="{...}" />
+            <marker date="1510566726190" expanded="true" signature="571:626" ph="{...}" />
+            <marker date="1510566726190" expanded="true" signature="690:843" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walls.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <marker date="1510427909609" expanded="true" signature="6:69" ph="..." />
+            <marker date="1510427909609" expanded="true" signature="122:1267" ph="{...}" />
+            <marker date="1510427909609" expanded="true" signature="214:768" ph="{...}" />
+            <marker date="1510427909609" expanded="true" signature="524:675" ph="/* horizontalLine.HorizontalAlignment = HorizontalAlignment.Left; ... */" />
+            <marker date="1510427909609" expanded="true" signature="862:1252" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labyrinth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <marker date="1510567419020" expanded="true" signature="6:212" ph="..." />
+            <marker date="1510567419020" expanded="true" signature="266:4729" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="317:592" ph="/// Create a graphical labyrinht with size * size area. ... " />
+            <marker date="1510567419020" expanded="true" signature="644:976" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="760:952" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="837:937" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="987:1070" ph="/// Generate the perfect labyrinth.  ... " />
+            <marker date="1510567419020" expanded="true" signature="1102:2505" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="1537:2369" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="1664:2040" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="2062:2354" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="2125:2225" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="2251:2335" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="2429:2494" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="2516:2774" ph="/// Get the neighbors cells or the origin cell /!\ that has not been visited. ... " />
+            <marker date="1510567419020" expanded="true" signature="2826:3811" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="3085:3166" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="3272:3354" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="3485:3568" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="3673:3755" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="3822:4013" ph="/// Break the walls between two cells.  ... " />
+            <marker date="1510567419020" expanded="true" signature="4072:4722" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="4125:4236" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="4278:4389" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="4431:4543" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="4599:4711" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding>
+            <marker date="1510567419009" expanded="true" signature="6:160" ph="..." />
+            <marker date="1510567419009" expanded="true" signature="206:3892" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="600:831" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="921:997" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="1007:1081" ph="/// Create and display walls. ... " />
+            <marker date="1510567419009" expanded="true" signature="1108:1767" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="1808:1893" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="1942:2036" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2084:2168" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2217:2302" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2335:2389" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2421:2591" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2629:2705" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2751:2827" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2872:2947" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2993:3069" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="3094:3147" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="3172:3225" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="3254:3349" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="3383:3886" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1510420538712" expanded="true" signature="6:194" ph="..." />
+            <marker date="1510420538712" expanded="true" signature="215:365" ph="{...}" />
+            <marker date="1510420538712" expanded="true" signature="222:298" ph="/// Logique d'interaction pour App.xaml ... " />
+            <marker date="1510420538712" expanded="true" signature="341:363" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <marker date="1510419257991" expanded="true" signature="0:359" ph="&lt;&lt;Application.Resources&gt;&#10;         &#10;    &lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1510419257991" expanded="true" signature="282:344" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LABYRINTH.csproj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1510423352200" expanded="true" signature="4631:4641" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -364,11 +519,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cell.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="2520">
           <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding>
             <marker date="1510567419009" expanded="true" signature="6:160" ph="..." />
-            <marker date="1510567419009" expanded="true" signature="181:3894" ph="{...}" />
             <marker date="1510567419009" expanded="true" signature="206:3892" ph="{...}" />
             <marker date="1510567419009" expanded="true" signature="600:831" ph="{...}" />
             <marker date="1510567419009" expanded="true" signature="921:997" ph="{...}" />
@@ -394,11 +548,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labyrinth.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
+        <state relative-caret-position="210">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
             <marker date="1510567419020" expanded="true" signature="6:212" ph="..." />
-            <marker date="1510567419020" expanded="true" signature="235:4732" ph="{...}" />
             <marker date="1510567419020" expanded="true" signature="266:4729" ph="{...}" />
             <marker date="1510567419020" expanded="true" signature="317:592" ph="/// Create a graphical labyrinht with size * size area. ... " />
             <marker date="1510567419020" expanded="true" signature="644:976" ph="{...}" />
@@ -430,11 +583,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Walls.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="378">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <marker date="1510427909609" expanded="true" signature="6:69" ph="..." />
-            <marker date="1510427909609" expanded="true" signature="89:1269" ph="{...}" />
             <marker date="1510427909609" expanded="true" signature="122:1267" ph="{...}" />
             <marker date="1510427909609" expanded="true" signature="214:768" ph="{...}" />
             <marker date="1510427909609" expanded="true" signature="524:675" ph="/* horizontalLine.HorizontalAlignment = HorizontalAlignment.Left; ... */" />
@@ -445,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="672">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <marker date="1510566726190" expanded="true" signature="6:381" ph="..." />
             <marker date="1510566726190" expanded="true" signature="402:851" ph="{...}" />
@@ -460,12 +612,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="84">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding>
             <marker date="1510567439829" expanded="true" signature="0:496" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
             <marker date="1510567439829" expanded="true" signature="452:486" ph="&lt;.../&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
