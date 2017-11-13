@@ -28,8 +28,46 @@ namespace LABYRINTH
         protected override void OnContentRendered(EventArgs e)
         {
             base.OnContentRendered(e);
-            Labyrinth labyrinth = new Labyrinth(Grille,10);
+            Labyrinth labyrinth = new Labyrinth(Canvas,10);
             labyrinth.Generate();
+        }
+
+        private void GenerateButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            Canvas.Children.Clear();
+            int size, x, y;
+            try
+            {
+                Labyrinth labyrinth;
+                if (Size.Text != "")
+                {  size = Int32.Parse(Size.Text);
+                   labyrinth = new Labyrinth(Canvas,size);
+                }
+                else
+                {
+                    labyrinth = new Labyrinth(Canvas);
+                }
+                
+                
+                if (XEntryPoint.Text != "" && YEntryPoint.Text != "")
+                {
+                    x = Int32.Parse(XEntryPoint.Text);
+                    y = Int32.Parse(YEntryPoint.Text);
+                    labyrinth.Generate(x, y);
+                }
+                else
+                {
+                    labyrinth.Generate();
+                }
+                
+                
+                
+            }
+            catch(Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+            }
+            
         }
     }
 }

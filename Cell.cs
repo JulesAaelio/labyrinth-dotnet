@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace LABYRINTH
@@ -17,7 +18,7 @@ namespace LABYRINTH
         private Line _lowerWall;
         private Line _leftWall;
         private Line _rightWall;
-        private Grid grid;
+        private Canvas grid;
         private int size;
         private bool _visited;
 
@@ -31,7 +32,7 @@ namespace LABYRINTH
             this._visited = false;
         }
 
-        public Cell(int posX, int posY, Grid grid,int size= 10) : this(posX, posY, size)
+        public Cell(int posX, int posY, Canvas grid,int size= 10) : this(posX, posY, size)
         {
             this.grid = grid;
             this.Init(); 
@@ -130,6 +131,33 @@ namespace LABYRINTH
             this._upperWall.StrokeThickness = 4;
             this._rightWall.Stroke = System.Windows.Media.Brushes.Blue;
             this._lowerWall.StrokeThickness = 4;
+        }
+
+        public void HighlightAsEntryPoint()
+        {
+           this.Highlight(System.Windows.Media.Brushes.LightGreen);
+        }
+        
+        public void HighlightAsExitPoint()
+        {
+            this.Highlight(System.Windows.Media.Brushes.LightCoral);
+        }
+        
+        public void HighlightAsPathMember()
+        {
+            this.Highlight(System.Windows.Media.Brushes.LightBlue);
+        }
+
+        public void Highlight(SolidColorBrush brush)
+        {
+            Rectangle rectangle = new Rectangle();
+            rectangle.Height = this.size -2;
+            rectangle.Width =  this.size -2;           
+            // Create a blue and a black Brush
+            rectangle.Fill = brush;
+            this.grid.Children.Add(rectangle);
+            Canvas.SetLeft(rectangle,this.clientPosX +1);
+            Canvas.SetTop(rectangle,this.clientPosY +1 );
         }
     }
 }

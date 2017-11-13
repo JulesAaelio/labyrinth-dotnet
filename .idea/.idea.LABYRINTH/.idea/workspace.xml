@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b40ae16c-2df0-40e5-bd79-63340e3ab23e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Debug/LABYRINTH.exe" afterPath="$PROJECT_DIR$/bin/Debug/LABYRINTH.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Debug/LABYRINTH.pdb" afterPath="$PROJECT_DIR$/bin/Debug/LABYRINTH.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/LABYRINTH.exe" afterPath="$PROJECT_DIR$/obj/Debug/LABYRINTH.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/LABYRINTH.g.resources" afterPath="$PROJECT_DIR$/obj/Debug/LABYRINTH.g.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/LABYRINTH.pdb" afterPath="$PROJECT_DIR$/obj/Debug/LABYRINTH.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/MainWindow.baml" afterPath="$PROJECT_DIR$/obj/Debug/MainWindow.baml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.LABYRINTH/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LABYRINTH/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cell.cs" afterPath="$PROJECT_DIR$/Cell.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Labyrinth.cs" afterPath="$PROJECT_DIR$/Labyrinth.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainWindow.xaml" afterPath="$PROJECT_DIR$/MainWindow.xaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainWindow.xaml.cs" afterPath="$PROJECT_DIR$/MainWindow.xaml.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/MainWindow.g.cs" afterPath="$PROJECT_DIR$/obj/Debug/MainWindow.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/MainWindow.g.i.cs" afterPath="$PROJECT_DIR$/obj/Debug/MainWindow.g.i.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,17 +28,22 @@
       <file leaf-file-name="MainWindow.xaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            <state relative-caret-position="386">
+              <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
-                <marker date="1510567439829" expanded="true" signature="0:496" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-                <marker date="1510567439829" expanded="true" signature="452:486" ph="&lt;.../&gt;" />
+                <marker date="1510571455368" expanded="true" signature="0:2064" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;400&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;200&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;Canvas Grid.Column=&quot;0&quot; x:Name=&quot;Canvas&quot; &gt;&lt;/Canvas&gt;&#10;        &lt;Grid Grid.Column=&quot;1&quot; x:Name=&quot;ControlsGrid&quot;&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;15*&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &#10;            &lt;Label Grid.Row=&quot;0&quot;&gt;Taille du labyrinthe&lt;/Label&gt;&#10;            &lt;TextBox Grid.Row=&quot;1&quot; x:Name=&quot;Size&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;Label Grid.Row=&quot;2&quot;&gt;Point d'entrée&lt;/Label&gt;&#10;            &lt;Grid Grid.Row=&quot;3&quot; x:Name=&quot;EntryPointGrid&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;                &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Button  Grid.Row=&quot;4&quot; x:Name=&quot;GenerateButton&quot; Click=&quot;GenerateButton_OnClick&quot;&gt;GENERER&lt;/Button&gt;&#10;        &lt;/Grid&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1510571455368" expanded="true" signature="452:2054" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;400&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;200&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Canvas Grid.Column=&quot;0&quot; x:Name=&quot;Canvas&quot; &gt;&lt;/Canvas&gt; &lt;Grid Grid.Column=&quot;1&quot; x:Name=&quot;ControlsGrid&quot;&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;15*&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &#10;            &lt;Label Grid.Row=&quot;0&quot;&gt;Taille du labyrinthe&lt;/Label&gt;&#10;            &lt;TextBox Grid.Row=&quot;1&quot; x:Name=&quot;Size&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;Label Grid.Row=&quot;2&quot;&gt;Point d'entrée&lt;/Label&gt;&#10;            &lt;Grid Grid.Row=&quot;3&quot; x:Name=&quot;EntryPointGrid&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;                &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Button  Grid.Row=&quot;4&quot; x:Name=&quot;GenerateButton&quot; Click=&quot;GenerateButton_OnClick&quot;&gt;GENERER&lt;/Button&gt;&#10;        &lt;/Grid&gt;.../&gt;" />
+                <marker date="1510571455368" expanded="true" signature="483:631" ph="&lt;&lt;ColumnDefinition Width=&quot;400&quot; /&gt; &lt;ColumnDefinition Width=&quot;200&quot; /&gt;.../&gt;" />
+                <marker date="1510571455368" expanded="true" signature="708:2033" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;15*&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;Label Grid.Row=&quot;0&quot;&gt;Taille du labyrinthe&lt;/Label&gt; &lt;TextBox Grid.Row=&quot;1&quot; x:Name=&quot;Size&quot;&gt;&lt;/TextBox&gt; &lt;Label Grid.Row=&quot;2&quot;&gt;Point d'entrée&lt;/Label&gt; &lt;Grid Grid.Row=&quot;3&quot; x:Name=&quot;EntryPointGrid&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;                &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;/Grid&gt; &lt;Button  Grid.Row=&quot;4&quot; x:Name=&quot;GenerateButton&quot; Click=&quot;GenerateButton_OnClick&quot;&gt;GENERER&lt;/Button&gt;.../&gt;" />
+                <marker date="1510571455368" expanded="true" signature="765:1098" ph="&lt;&lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;15*&quot; /&gt;.../&gt;" />
+                <marker date="1510571455368" expanded="true" signature="1312:1911" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt; &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt; &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt; &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;.../&gt;" />
+                <marker date="1510571455368" expanded="true" signature="1372:1646" ph="&lt;&lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -43,15 +59,22 @@
       <file leaf-file-name="MainWindow.xaml.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="47" column="54" lean-forward="false" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
               <folding>
-                <marker date="1510566726190" expanded="true" signature="6:381" ph="..." />
-                <marker date="1510566726190" expanded="true" signature="402:851" ph="{...}" />
-                <marker date="1510566726190" expanded="true" signature="409:492" ph="/// Logique d'interaction pour MainWindow.xaml ... " />
-                <marker date="1510566726190" expanded="true" signature="537:849" ph="{...}" />
-                <marker date="1510566726190" expanded="true" signature="571:626" ph="{...}" />
-                <marker date="1510566726190" expanded="true" signature="690:843" ph="{...}" />
+                <marker date="1510573593972" expanded="false" signature="6:381" ph="..." />
+                <marker date="1510573593972" expanded="true" signature="402:1950" ph="{...}" />
+                <marker date="1510573593972" expanded="true" signature="409:492" ph="/// Logique d'interaction pour MainWindow.xaml ... " />
+                <marker date="1510573593972" expanded="true" signature="537:1948" ph="{...}" />
+                <marker date="1510573593972" expanded="true" signature="571:626" ph="{...}" />
+                <marker date="1510573593972" expanded="true" signature="690:843" ph="{...}" />
+                <marker date="1510573593972" expanded="true" signature="922:1942" ph="{...}" />
+                <marker date="1510573593972" expanded="true" signature="1013:1800" ph="{...}" />
+                <marker date="1510573593972" expanded="true" signature="1101:1228" ph="{...}" />
+                <marker date="1510573593972" expanded="true" signature="1249:1340" ph="{...}" />
+                <marker date="1510573593972" expanded="true" signature="1444:1636" ph="{...}" />
+                <marker date="1510573593972" expanded="true" signature="1657:1735" ph="{...}" />
+                <marker date="1510573593972" expanded="true" signature="1839:1919" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -60,10 +83,11 @@
       <file leaf-file-name="Walls.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Walls.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="78">
               <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
-                <marker date="1510427909609" expanded="true" signature="6:69" ph="..." />
+                <marker date="1510427909609" expanded="false" signature="6:69" ph="..." />
+                <marker date="1510427909609" expanded="true" signature="89:1269" ph="{...}" />
                 <marker date="1510427909609" expanded="true" signature="122:1267" ph="{...}" />
                 <marker date="1510427909609" expanded="true" signature="214:768" ph="{...}" />
                 <marker date="1510427909609" expanded="true" signature="524:675" ph="/* horizontalLine.HorizontalAlignment = HorizontalAlignment.Left; ... */" />
@@ -73,38 +97,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Labyrinth.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Labyrinth.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labyrinth.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="147">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
-                <marker date="1510567419020" expanded="true" signature="6:212" ph="..." />
-                <marker date="1510567419020" expanded="true" signature="266:4729" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="317:592" ph="/// Create a graphical labyrinht with size * size area. ... " />
-                <marker date="1510567419020" expanded="true" signature="644:976" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="760:952" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="837:937" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="987:1070" ph="/// Generate the perfect labyrinth.  ... " />
-                <marker date="1510567419020" expanded="true" signature="1102:2505" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="1537:2369" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="1664:2040" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="2062:2354" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="2125:2225" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="2251:2335" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="2429:2494" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="2516:2774" ph="/// Get the neighbors cells or the origin cell /!\ that has not been visited. ... " />
-                <marker date="1510567419020" expanded="true" signature="2826:3811" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="3085:3166" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="3272:3354" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="3485:3568" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="3673:3755" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="3822:4013" ph="/// Break the walls between two cells.  ... " />
-                <marker date="1510567419020" expanded="true" signature="4072:4722" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="4125:4236" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="4278:4389" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="4431:4543" ph="{...}" />
-                <marker date="1510567419020" expanded="true" signature="4599:4711" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="6:212" ph="..." />
+                <marker date="1510573607919" expanded="true" signature="235:5028" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="266:5025" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="352:627" ph="/// Create a graphical labyrinht with size * size area. ... " />
+                <marker date="1510573607919" expanded="true" signature="681:1013" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="797:989" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="874:974" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="1047:1281" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="1291:1374" ph="/// Generate the perfect labyrinth.  ... " />
+                <marker date="1510573607919" expanded="true" signature="1418:2792" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="1824:2656" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="1951:2327" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="2349:2641" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="2412:2512" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="2538:2622" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="2716:2781" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="2803:3061" ph="/// Get the neighbors cells or the origin cell /!\ that has not been visited. ... " />
+                <marker date="1510573607919" expanded="true" signature="3113:4098" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="3372:3453" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="3559:3641" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="3772:3855" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="3960:4042" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="4118:4309" ph="/// Break the walls between two cells.  ... " />
+                <marker date="1510573607919" expanded="true" signature="4368:5018" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="4421:4532" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="4574:4685" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="4727:4839" ph="{...}" />
+                <marker date="1510573607919" expanded="true" signature="4895:5007" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -113,29 +139,34 @@
       <file leaf-file-name="Cell.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cell.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="309">
+              <caret line="146" column="9" lean-forward="false" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
               <folding>
-                <marker date="1510567419009" expanded="true" signature="6:160" ph="..." />
-                <marker date="1510567419009" expanded="true" signature="206:3892" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="600:831" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="921:997" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="1007:1081" ph="/// Create and display walls. ... " />
-                <marker date="1510567419009" expanded="true" signature="1108:1767" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="1808:1893" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="1942:2036" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="2084:2168" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="2217:2302" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="2335:2389" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="2421:2591" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="2629:2705" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="2751:2827" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="2872:2947" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="2993:3069" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="3094:3147" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="3172:3225" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="3254:3349" ph="{...}" />
-                <marker date="1510567419009" expanded="true" signature="3383:3886" ph="{...}" />
+                <marker date="1510573290544" expanded="false" signature="6:188" ph="..." />
+                <marker date="1510573290544" expanded="true" signature="209:4813" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="234:4811" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="630:861" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="953:1029" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="1039:1113" ph="/// Create and display walls. ... " />
+                <marker date="1510573290544" expanded="true" signature="1140:1799" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="1840:1925" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="1974:2068" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="2116:2200" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="2249:2334" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="2367:2421" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="2453:2623" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="2661:2737" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="2783:2859" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="2904:2979" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="3025:3101" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="3126:3179" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="3204:3257" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="3286:3381" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="3415:3918" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="3963:4051" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="4103:4192" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="4245:4333" ph="{...}" />
+                <marker date="1510573290544" expanded="true" signature="4387:4805" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -191,11 +222,11 @@
         <option value="$PROJECT_DIR$/LineExtensions.cs" />
         <option value="$PROJECT_DIR$/Wall.cs" />
         <option value="$PROJECT_DIR$/Walls.cs" />
-        <option value="$PROJECT_DIR$/MainWindow.xaml.cs" />
-        <option value="$PROJECT_DIR$/Cell.cs" />
-        <option value="$PROJECT_DIR$/Labyrinth.cs" />
-        <option value="$PROJECT_DIR$/MainWindow.xaml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/Cell.cs" />
+        <option value="$PROJECT_DIR$/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/Labyrinth.cs" />
       </list>
     </option>
   </component>
@@ -238,6 +269,12 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="LABYRINTH (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="LABYRINTH" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LABYRINTH (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="LABYRINTH" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="MainWindow.xaml" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -291,12 +328,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510419338705</updated>
       <workItem from="1510419339984" duration="17829000" />
-      <workItem from="1510567997636" duration="75000" />
+      <workItem from="1510567997636" duration="5617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17904000" />
+    <option name="totallyTimeSpent" value="23446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,17 +346,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32687926" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -329,7 +366,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -352,8 +388,13 @@
         <state relative-caret-position="84">
           <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding>
-            <marker date="1510567439829" expanded="true" signature="0:496" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1510567439829" expanded="true" signature="452:486" ph="&lt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="0:2064" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;400&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;200&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;Canvas Grid.Column=&quot;0&quot; x:Name=&quot;Canvas&quot; &gt;&lt;/Canvas&gt;&#10;        &lt;Grid Grid.Column=&quot;1&quot; x:Name=&quot;ControlsGrid&quot;&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;15*&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &#10;            &lt;Label Grid.Row=&quot;0&quot;&gt;Taille du labyrinthe&lt;/Label&gt;&#10;            &lt;TextBox Grid.Row=&quot;1&quot; x:Name=&quot;Size&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;Label Grid.Row=&quot;2&quot;&gt;Point d'entrée&lt;/Label&gt;&#10;            &lt;Grid Grid.Row=&quot;3&quot; x:Name=&quot;EntryPointGrid&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;                &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Button  Grid.Row=&quot;4&quot; x:Name=&quot;GenerateButton&quot; Click=&quot;GenerateButton_OnClick&quot;&gt;GENERER&lt;/Button&gt;&#10;        &lt;/Grid&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="452:2054" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;400&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;200&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Canvas Grid.Column=&quot;0&quot; x:Name=&quot;Canvas&quot; &gt;&lt;/Canvas&gt; &lt;Grid Grid.Column=&quot;1&quot; x:Name=&quot;ControlsGrid&quot;&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;15*&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &#10;            &lt;Label Grid.Row=&quot;0&quot;&gt;Taille du labyrinthe&lt;/Label&gt;&#10;            &lt;TextBox Grid.Row=&quot;1&quot; x:Name=&quot;Size&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;Label Grid.Row=&quot;2&quot;&gt;Point d'entrée&lt;/Label&gt;&#10;            &lt;Grid Grid.Row=&quot;3&quot; x:Name=&quot;EntryPointGrid&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;                &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Button  Grid.Row=&quot;4&quot; x:Name=&quot;GenerateButton&quot; Click=&quot;GenerateButton_OnClick&quot;&gt;GENERER&lt;/Button&gt;&#10;        &lt;/Grid&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="483:631" ph="&lt;&lt;ColumnDefinition Width=&quot;400&quot; /&gt; &lt;ColumnDefinition Width=&quot;200&quot; /&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="708:2033" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;15*&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;Label Grid.Row=&quot;0&quot;&gt;Taille du labyrinthe&lt;/Label&gt; &lt;TextBox Grid.Row=&quot;1&quot; x:Name=&quot;Size&quot;&gt;&lt;/TextBox&gt; &lt;Label Grid.Row=&quot;2&quot;&gt;Point d'entrée&lt;/Label&gt; &lt;Grid Grid.Row=&quot;3&quot; x:Name=&quot;EntryPointGrid&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;                &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;/Grid&gt; &lt;Button  Grid.Row=&quot;4&quot; x:Name=&quot;GenerateButton&quot; Click=&quot;GenerateButton_OnClick&quot;&gt;GENERER&lt;/Button&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="765:1098" ph="&lt;&lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;15*&quot; /&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="1312:1911" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt; &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt; &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt; &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="1372:1646" ph="&lt;&lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -363,12 +404,19 @@
         <state relative-caret-position="672">
           <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
-            <marker date="1510566726190" expanded="true" signature="6:381" ph="..." />
-            <marker date="1510566726190" expanded="true" signature="402:851" ph="{...}" />
-            <marker date="1510566726190" expanded="true" signature="409:492" ph="/// Logique d'interaction pour MainWindow.xaml ... " />
-            <marker date="1510566726190" expanded="true" signature="537:849" ph="{...}" />
-            <marker date="1510566726190" expanded="true" signature="571:626" ph="{...}" />
-            <marker date="1510566726190" expanded="true" signature="690:843" ph="{...}" />
+            <marker date="1510573593972" expanded="false" signature="6:381" ph="..." />
+            <marker date="1510573593972" expanded="true" signature="402:1950" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="409:492" ph="/// Logique d'interaction pour MainWindow.xaml ... " />
+            <marker date="1510573593972" expanded="true" signature="537:1948" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="571:626" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="690:843" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="922:1942" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1013:1800" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1101:1228" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1249:1340" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1444:1636" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1657:1735" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1839:1919" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -378,7 +426,8 @@
         <state relative-caret-position="378">
           <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <marker date="1510427909609" expanded="true" signature="6:69" ph="..." />
+            <marker date="1510427909609" expanded="false" signature="6:69" ph="..." />
+            <marker date="1510427909609" expanded="true" signature="89:1269" ph="{...}" />
             <marker date="1510427909609" expanded="true" signature="122:1267" ph="{...}" />
             <marker date="1510427909609" expanded="true" signature="214:768" ph="{...}" />
             <marker date="1510427909609" expanded="true" signature="524:675" ph="/* horizontalLine.HorizontalAlignment = HorizontalAlignment.Left; ... */" />
@@ -392,32 +441,34 @@
         <state relative-caret-position="210">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
-            <marker date="1510567419020" expanded="true" signature="6:212" ph="..." />
-            <marker date="1510567419020" expanded="true" signature="266:4729" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="317:592" ph="/// Create a graphical labyrinht with size * size area. ... " />
-            <marker date="1510567419020" expanded="true" signature="644:976" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="760:952" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="837:937" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="987:1070" ph="/// Generate the perfect labyrinth.  ... " />
-            <marker date="1510567419020" expanded="true" signature="1102:2505" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="1537:2369" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="1664:2040" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="2062:2354" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="2125:2225" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="2251:2335" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="2429:2494" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="2516:2774" ph="/// Get the neighbors cells or the origin cell /!\ that has not been visited. ... " />
-            <marker date="1510567419020" expanded="true" signature="2826:3811" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="3085:3166" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="3272:3354" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="3485:3568" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="3673:3755" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="3822:4013" ph="/// Break the walls between two cells.  ... " />
-            <marker date="1510567419020" expanded="true" signature="4072:4722" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="4125:4236" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="4278:4389" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="4431:4543" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="4599:4711" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="6:212" ph="..." />
+            <marker date="1510573607919" expanded="true" signature="235:5028" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="266:5025" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="352:627" ph="/// Create a graphical labyrinht with size * size area. ... " />
+            <marker date="1510573607919" expanded="true" signature="681:1013" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="797:989" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="874:974" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="1047:1281" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="1291:1374" ph="/// Generate the perfect labyrinth.  ... " />
+            <marker date="1510573607919" expanded="true" signature="1418:2792" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="1824:2656" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="1951:2327" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="2349:2641" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="2412:2512" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="2538:2622" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="2716:2781" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="2803:3061" ph="/// Get the neighbors cells or the origin cell /!\ that has not been visited. ... " />
+            <marker date="1510573607919" expanded="true" signature="3113:4098" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="3372:3453" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="3559:3641" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="3772:3855" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="3960:4042" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="4118:4309" ph="/// Break the walls between two cells.  ... " />
+            <marker date="1510573607919" expanded="true" signature="4368:5018" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="4421:4532" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="4574:4685" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="4727:4839" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="4895:5007" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -427,26 +478,31 @@
         <state relative-caret-position="2520">
           <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding>
-            <marker date="1510567419009" expanded="true" signature="6:160" ph="..." />
-            <marker date="1510567419009" expanded="true" signature="206:3892" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="600:831" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="921:997" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="1007:1081" ph="/// Create and display walls. ... " />
-            <marker date="1510567419009" expanded="true" signature="1108:1767" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="1808:1893" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="1942:2036" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2084:2168" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2217:2302" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2335:2389" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2421:2591" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2629:2705" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2751:2827" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2872:2947" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2993:3069" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="3094:3147" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="3172:3225" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="3254:3349" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="3383:3886" ph="{...}" />
+            <marker date="1510573290544" expanded="false" signature="6:188" ph="..." />
+            <marker date="1510573290544" expanded="true" signature="209:4813" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="234:4811" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="630:861" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="953:1029" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="1039:1113" ph="/// Create and display walls. ... " />
+            <marker date="1510573290544" expanded="true" signature="1140:1799" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="1840:1925" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="1974:2068" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2116:2200" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2249:2334" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2367:2421" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2453:2623" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2661:2737" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2783:2859" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2904:2979" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3025:3101" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3126:3179" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3204:3257" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3286:3381" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3415:3918" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3963:4051" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="4103:4192" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="4245:4333" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="4387:4805" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -517,110 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cell.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding>
-            <marker date="1510567419009" expanded="true" signature="6:160" ph="..." />
-            <marker date="1510567419009" expanded="true" signature="206:3892" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="600:831" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="921:997" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="1007:1081" ph="/// Create and display walls. ... " />
-            <marker date="1510567419009" expanded="true" signature="1108:1767" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="1808:1893" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="1942:2036" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2084:2168" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2217:2302" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2335:2389" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2421:2591" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2629:2705" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2751:2827" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2872:2947" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="2993:3069" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="3094:3147" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="3172:3225" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="3254:3349" ph="{...}" />
-            <marker date="1510567419009" expanded="true" signature="3383:3886" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labyrinth.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <marker date="1510567419020" expanded="true" signature="6:212" ph="..." />
-            <marker date="1510567419020" expanded="true" signature="266:4729" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="317:592" ph="/// Create a graphical labyrinht with size * size area. ... " />
-            <marker date="1510567419020" expanded="true" signature="644:976" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="760:952" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="837:937" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="987:1070" ph="/// Generate the perfect labyrinth.  ... " />
-            <marker date="1510567419020" expanded="true" signature="1102:2505" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="1537:2369" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="1664:2040" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="2062:2354" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="2125:2225" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="2251:2335" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="2429:2494" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="2516:2774" ph="/// Get the neighbors cells or the origin cell /!\ that has not been visited. ... " />
-            <marker date="1510567419020" expanded="true" signature="2826:3811" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="3085:3166" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="3272:3354" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="3485:3568" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="3673:3755" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="3822:4013" ph="/// Break the walls between two cells.  ... " />
-            <marker date="1510567419020" expanded="true" signature="4072:4722" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="4125:4236" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="4278:4389" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="4431:4543" ph="{...}" />
-            <marker date="1510567419020" expanded="true" signature="4599:4711" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Walls.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <marker date="1510427909609" expanded="true" signature="6:69" ph="..." />
-            <marker date="1510427909609" expanded="true" signature="122:1267" ph="{...}" />
-            <marker date="1510427909609" expanded="true" signature="214:768" ph="{...}" />
-            <marker date="1510427909609" expanded="true" signature="524:675" ph="/* horizontalLine.HorizontalAlignment = HorizontalAlignment.Left; ... */" />
-            <marker date="1510427909609" expanded="true" signature="862:1252" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <marker date="1510566726190" expanded="true" signature="6:381" ph="..." />
-            <marker date="1510566726190" expanded="true" signature="402:851" ph="{...}" />
-            <marker date="1510566726190" expanded="true" signature="409:492" ph="/// Logique d'interaction pour MainWindow.xaml ... " />
-            <marker date="1510566726190" expanded="true" signature="537:849" ph="{...}" />
-            <marker date="1510566726190" expanded="true" signature="571:626" ph="{...}" />
-            <marker date="1510566726190" expanded="true" signature="690:843" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <marker date="1510567439829" expanded="true" signature="0:496" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1510567439829" expanded="true" signature="452:486" ph="&lt;.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -635,6 +587,130 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <marker date="1510571455368" expanded="true" signature="0:2064" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;400&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;200&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;Canvas Grid.Column=&quot;0&quot; x:Name=&quot;Canvas&quot; &gt;&lt;/Canvas&gt;&#10;        &lt;Grid Grid.Column=&quot;1&quot; x:Name=&quot;ControlsGrid&quot;&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;15*&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &#10;            &lt;Label Grid.Row=&quot;0&quot;&gt;Taille du labyrinthe&lt;/Label&gt;&#10;            &lt;TextBox Grid.Row=&quot;1&quot; x:Name=&quot;Size&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;Label Grid.Row=&quot;2&quot;&gt;Point d'entrée&lt;/Label&gt;&#10;            &lt;Grid Grid.Row=&quot;3&quot; x:Name=&quot;EntryPointGrid&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;                &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Button  Grid.Row=&quot;4&quot; x:Name=&quot;GenerateButton&quot; Click=&quot;GenerateButton_OnClick&quot;&gt;GENERER&lt;/Button&gt;&#10;        &lt;/Grid&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="452:2054" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;400&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;200&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Canvas Grid.Column=&quot;0&quot; x:Name=&quot;Canvas&quot; &gt;&lt;/Canvas&gt; &lt;Grid Grid.Column=&quot;1&quot; x:Name=&quot;ControlsGrid&quot;&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;15*&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &#10;            &lt;Label Grid.Row=&quot;0&quot;&gt;Taille du labyrinthe&lt;/Label&gt;&#10;            &lt;TextBox Grid.Row=&quot;1&quot; x:Name=&quot;Size&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;Label Grid.Row=&quot;2&quot;&gt;Point d'entrée&lt;/Label&gt;&#10;            &lt;Grid Grid.Row=&quot;3&quot; x:Name=&quot;EntryPointGrid&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;                &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Button  Grid.Row=&quot;4&quot; x:Name=&quot;GenerateButton&quot; Click=&quot;GenerateButton_OnClick&quot;&gt;GENERER&lt;/Button&gt;&#10;        &lt;/Grid&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="483:631" ph="&lt;&lt;ColumnDefinition Width=&quot;400&quot; /&gt; &lt;ColumnDefinition Width=&quot;200&quot; /&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="708:2033" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;1*&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;15*&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;Label Grid.Row=&quot;0&quot;&gt;Taille du labyrinthe&lt;/Label&gt; &lt;TextBox Grid.Row=&quot;1&quot; x:Name=&quot;Size&quot;&gt;&lt;/TextBox&gt; &lt;Label Grid.Row=&quot;2&quot;&gt;Point d'entrée&lt;/Label&gt; &lt;Grid Grid.Row=&quot;3&quot; x:Name=&quot;EntryPointGrid&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;                &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt;&#10;                &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;&#10;            &lt;/Grid&gt; &lt;Button  Grid.Row=&quot;4&quot; x:Name=&quot;GenerateButton&quot; Click=&quot;GenerateButton_OnClick&quot;&gt;GENERER&lt;/Button&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="765:1098" ph="&lt;&lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;15*&quot; /&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="1312:1911" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot;&gt;X&lt;/Label&gt; &lt;TextBox Grid.Column=&quot;1&quot;  x:Name=&quot;XEntryPoint&quot;&gt;&lt;/TextBox&gt; &lt;Label Grid.Column=&quot;2&quot;&gt;Y&lt;/Label&gt; &lt;TextBox Grid.Column=&quot;3&quot; x:Name=&quot;YEntryPoint&quot;&gt;&lt;/TextBox&gt;.../&gt;" />
+            <marker date="1510571455368" expanded="true" signature="1372:1646" ph="&lt;&lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walls.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <marker date="1510427909609" expanded="false" signature="6:69" ph="..." />
+            <marker date="1510427909609" expanded="true" signature="89:1269" ph="{...}" />
+            <marker date="1510427909609" expanded="true" signature="122:1267" ph="{...}" />
+            <marker date="1510427909609" expanded="true" signature="214:768" ph="{...}" />
+            <marker date="1510427909609" expanded="true" signature="524:675" ph="/* horizontalLine.HorizontalAlignment = HorizontalAlignment.Left; ... */" />
+            <marker date="1510427909609" expanded="true" signature="862:1252" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="146" column="9" lean-forward="false" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
+          <folding>
+            <marker date="1510573290544" expanded="false" signature="6:188" ph="..." />
+            <marker date="1510573290544" expanded="true" signature="209:4813" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="234:4811" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="630:861" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="953:1029" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="1039:1113" ph="/// Create and display walls. ... " />
+            <marker date="1510573290544" expanded="true" signature="1140:1799" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="1840:1925" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="1974:2068" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2116:2200" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2249:2334" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2367:2421" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2453:2623" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2661:2737" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2783:2859" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="2904:2979" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3025:3101" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3126:3179" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3204:3257" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3286:3381" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3415:3918" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="3963:4051" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="4103:4192" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="4245:4333" ph="{...}" />
+            <marker date="1510573290544" expanded="true" signature="4387:4805" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="47" column="54" lean-forward="false" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+          <folding>
+            <marker date="1510573593972" expanded="false" signature="6:381" ph="..." />
+            <marker date="1510573593972" expanded="true" signature="402:1950" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="409:492" ph="/// Logique d'interaction pour MainWindow.xaml ... " />
+            <marker date="1510573593972" expanded="true" signature="537:1948" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="571:626" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="690:843" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="922:1942" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1013:1800" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1101:1228" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1249:1340" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1444:1636" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1657:1735" ph="{...}" />
+            <marker date="1510573593972" expanded="true" signature="1839:1919" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labyrinth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <marker date="1510573607919" expanded="true" signature="6:212" ph="..." />
+            <marker date="1510573607919" expanded="true" signature="235:5028" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="266:5025" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="352:627" ph="/// Create a graphical labyrinht with size * size area. ... " />
+            <marker date="1510573607919" expanded="true" signature="681:1013" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="797:989" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="874:974" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="1047:1281" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="1291:1374" ph="/// Generate the perfect labyrinth.  ... " />
+            <marker date="1510573607919" expanded="true" signature="1418:2792" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="1824:2656" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="1951:2327" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="2349:2641" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="2412:2512" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="2538:2622" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="2716:2781" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="2803:3061" ph="/// Get the neighbors cells or the origin cell /!\ that has not been visited. ... " />
+            <marker date="1510573607919" expanded="true" signature="3113:4098" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="3372:3453" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="3559:3641" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="3772:3855" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="3960:4042" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="4118:4309" ph="/// Break the walls between two cells.  ... " />
+            <marker date="1510573607919" expanded="true" signature="4368:5018" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="4421:4532" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="4574:4685" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="4727:4839" ph="{...}" />
+            <marker date="1510573607919" expanded="true" signature="4895:5007" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

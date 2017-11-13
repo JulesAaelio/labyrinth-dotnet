@@ -12,13 +12,14 @@ using System.Windows.Controls;
      public class Labyrinth
      {
          private Cell[,] cells;
+         private Cell _entryPoint;
  
          /// <summary>
          /// Create a graphical labyrinht with size * size area.
          /// </summary>
          /// <param name="grid"> Grid element on wich the labyrinth will be drawed </param>
          /// <param name="size"> Size on one dimension on the labyrith .</param>
-         public Labyrinth(Grid grid, int size = 20)
+         public Labyrinth(Canvas grid, int size = 10)
          {
              this.cells = new Cell[size,size];
              for (int x = 0; x < cells.GetLength(0); x++)
@@ -30,19 +31,28 @@ using System.Windows.Controls;
              }             
          }
 
+
+         public void Generate()
+         {
+             Random randomGen = new Random();
+             
+             int i = randomGen.Next(this.cells.GetLength(0));
+             int j = randomGen.Next(this.cells.GetLength(1));
+             Generate(i,j);
+         }
          /// <summary>
          /// Generate the perfect labyrinth. 
          /// </summary>
-         public void Generate()
+         public void Generate(int x, int y)
          {
              Cell currentCell = null;
              Cell neighborCell = null; 
              Stack<Cell> history = new Stack<Cell>();
              Random randomGen = new Random();
              
-             int i = randomGen.Next(this.cells.GetLength(0));
-             int j = randomGen.Next(this.cells.GetLength(1));
-             currentCell = cells[i, j];
+             currentCell = cells[x, y];
+             this._entryPoint = currentCell;
+             currentCell.HighlightAsEntryPoint();
              bool exit = false;
 
              while (exit == false)
@@ -116,6 +126,7 @@ using System.Windows.Controls;
              return neighbors;
          }
 
+        
          /// <summary>
          /// Break the walls between two cells. 
          /// </summary>
