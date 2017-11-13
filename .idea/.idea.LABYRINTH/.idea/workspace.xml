@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b40ae16c-2df0-40e5-bd79-63340e3ab23e" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MainWindow.xaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <marker date="1510567439829" expanded="true" signature="0:496" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1510567439829" expanded="true" signature="452:486" ph="&lt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWindow.xaml.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <marker date="1510566726190" expanded="true" signature="6:381" ph="..." />
+                <marker date="1510566726190" expanded="true" signature="402:851" ph="{...}" />
+                <marker date="1510566726190" expanded="true" signature="409:492" ph="/// Logique d'interaction pour MainWindow.xaml ... " />
+                <marker date="1510566726190" expanded="true" signature="537:849" ph="{...}" />
+                <marker date="1510566726190" expanded="true" signature="571:626" ph="{...}" />
+                <marker date="1510566726190" expanded="true" signature="690:843" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Walls.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Walls.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <marker date="1510427909609" expanded="true" signature="6:69" ph="..." />
+                <marker date="1510427909609" expanded="true" signature="89:1269" ph="{...}" />
+                <marker date="1510427909609" expanded="true" signature="122:1267" ph="{...}" />
+                <marker date="1510427909609" expanded="true" signature="214:768" ph="{...}" />
+                <marker date="1510427909609" expanded="true" signature="524:675" ph="/* horizontalLine.HorizontalAlignment = HorizontalAlignment.Left; ... */" />
+                <marker date="1510427909609" expanded="true" signature="862:1252" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Labyrinth.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labyrinth.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-168">
+              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <marker date="1510567419020" expanded="true" signature="6:212" ph="..." />
+                <marker date="1510567419020" expanded="true" signature="235:4732" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="266:4729" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="317:592" ph="/// Create a graphical labyrinht with size * size area. ... " />
+                <marker date="1510567419020" expanded="true" signature="644:976" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="760:952" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="837:937" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="987:1070" ph="/// Generate the perfect labyrinth.  ... " />
+                <marker date="1510567419020" expanded="true" signature="1102:2505" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="1537:2369" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="1664:2040" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="2062:2354" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="2125:2225" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="2251:2335" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="2429:2494" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="2516:2774" ph="/// Get the neighbors cells or the origin cell /!\ that has not been visited. ... " />
+                <marker date="1510567419020" expanded="true" signature="2826:3811" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="3085:3166" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="3272:3354" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="3485:3568" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="3673:3755" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="3822:4013" ph="/// Break the walls between two cells.  ... " />
+                <marker date="1510567419020" expanded="true" signature="4072:4722" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="4125:4236" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="4278:4389" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="4431:4543" ph="{...}" />
+                <marker date="1510567419020" expanded="true" signature="4599:4711" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cell.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cell.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <folding>
+                <marker date="1510567419009" expanded="true" signature="6:160" ph="..." />
+                <marker date="1510567419009" expanded="true" signature="181:3894" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="206:3892" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="600:831" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="921:997" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="1007:1081" ph="/// Create and display walls. ... " />
+                <marker date="1510567419009" expanded="true" signature="1108:1767" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="1808:1893" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="1942:2036" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="2084:2168" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="2217:2302" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="2335:2389" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="2421:2591" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="2629:2705" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="2751:2827" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="2872:2947" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="2993:3069" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="3094:3147" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="3172:3225" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="3254:3349" ph="{...}" />
+                <marker date="1510567419009" expanded="true" signature="3383:3886" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.xaml.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <marker date="1510420538712" expanded="true" signature="6:194" ph="..." />
+                <marker date="1510420538712" expanded="true" signature="215:365" ph="{...}" />
+                <marker date="1510420538712" expanded="true" signature="222:298" ph="/// Logique d'interaction pour App.xaml ... " />
+                <marker date="1510420538712" expanded="true" signature="341:363" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.xaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <marker date="1510419257991" expanded="true" signature="0:359" ph="&lt;&lt;Application.Resources&gt;&#10;         &#10;    &lt;/Application.Resources&gt;.../&gt;" />
+                <marker date="1510419257991" expanded="true" signature="282:344" ph="&lt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Cell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Labyrinth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Walls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/App.xaml.cs" />
+        <option value="$PROJECT_DIR$/Square.cs" />
+        <option value="$PROJECT_DIR$/LineExtensions.cs" />
+        <option value="$PROJECT_DIR$/Wall.cs" />
+        <option value="$PROJECT_DIR$/Walls.cs" />
+        <option value="$PROJECT_DIR$/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/Cell.cs" />
+        <option value="$PROJECT_DIR$/Labyrinth.cs" />
+        <option value="$PROJECT_DIR$/MainWindow.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-38" />
+    <option name="y" value="210" />
+    <option name="width" value="1618" />
+    <option name="height" value="968" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LABYRINTH (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LABYRINTH (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="LABYRINTH" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LABYRINTH.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/LABYRINTH.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b40ae16c-2df0-40e5-bd79-63340e3ab23e" name="Default" comment="" />
+      <created>1510419338705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510419338705</updated>
+      <workItem from="1510419339984" duration="17682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17682000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LABYRINTH.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510423352200" expanded="true" signature="4631:4641" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1510420538712" expanded="true" signature="6:194" ph="..." />
+            <marker date="1510420538712" expanded="true" signature="215:365" ph="{...}" />
+            <marker date="1510420538712" expanded="true" signature="222:298" ph="/// Logique d'interaction pour App.xaml ... " />
+            <marker date="1510420538712" expanded="true" signature="341:363" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <marker date="1510419257991" expanded="true" signature="0:359" ph="&lt;&lt;Application.Resources&gt;&#10;         &#10;    &lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1510419257991" expanded="true" signature="282:344" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding>
+            <marker date="1510567419009" expanded="true" signature="6:160" ph="..." />
+            <marker date="1510567419009" expanded="true" signature="181:3894" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="206:3892" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="600:831" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="921:997" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="1007:1081" ph="/// Create and display walls. ... " />
+            <marker date="1510567419009" expanded="true" signature="1108:1767" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="1808:1893" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="1942:2036" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2084:2168" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2217:2302" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2335:2389" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2421:2591" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2629:2705" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2751:2827" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2872:2947" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="2993:3069" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="3094:3147" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="3172:3225" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="3254:3349" ph="{...}" />
+            <marker date="1510567419009" expanded="true" signature="3383:3886" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labyrinth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <marker date="1510567419020" expanded="true" signature="6:212" ph="..." />
+            <marker date="1510567419020" expanded="true" signature="235:4732" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="266:4729" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="317:592" ph="/// Create a graphical labyrinht with size * size area. ... " />
+            <marker date="1510567419020" expanded="true" signature="644:976" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="760:952" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="837:937" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="987:1070" ph="/// Generate the perfect labyrinth.  ... " />
+            <marker date="1510567419020" expanded="true" signature="1102:2505" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="1537:2369" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="1664:2040" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="2062:2354" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="2125:2225" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="2251:2335" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="2429:2494" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="2516:2774" ph="/// Get the neighbors cells or the origin cell /!\ that has not been visited. ... " />
+            <marker date="1510567419020" expanded="true" signature="2826:3811" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="3085:3166" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="3272:3354" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="3485:3568" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="3673:3755" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="3822:4013" ph="/// Break the walls between two cells.  ... " />
+            <marker date="1510567419020" expanded="true" signature="4072:4722" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="4125:4236" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="4278:4389" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="4431:4543" ph="{...}" />
+            <marker date="1510567419020" expanded="true" signature="4599:4711" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walls.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <marker date="1510427909609" expanded="true" signature="6:69" ph="..." />
+            <marker date="1510427909609" expanded="true" signature="89:1269" ph="{...}" />
+            <marker date="1510427909609" expanded="true" signature="122:1267" ph="{...}" />
+            <marker date="1510427909609" expanded="true" signature="214:768" ph="{...}" />
+            <marker date="1510427909609" expanded="true" signature="524:675" ph="/* horizontalLine.HorizontalAlignment = HorizontalAlignment.Left; ... */" />
+            <marker date="1510427909609" expanded="true" signature="862:1252" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <marker date="1510566726190" expanded="true" signature="6:381" ph="..." />
+            <marker date="1510566726190" expanded="true" signature="402:851" ph="{...}" />
+            <marker date="1510566726190" expanded="true" signature="409:492" ph="/// Logique d'interaction pour MainWindow.xaml ... " />
+            <marker date="1510566726190" expanded="true" signature="537:849" ph="{...}" />
+            <marker date="1510566726190" expanded="true" signature="571:626" ph="{...}" />
+            <marker date="1510566726190" expanded="true" signature="690:843" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1510567439829" expanded="true" signature="0:496" ph="&lt;&lt;Grid x:Name=&quot;Grille&quot;&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1510567439829" expanded="true" signature="452:486" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
