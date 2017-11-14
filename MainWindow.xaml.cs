@@ -49,10 +49,10 @@ namespace LABYRINTH
                 }
                 
                 
-                if (XEntryPoint.Text != "" && YEntryPoint.Text != "")
+                if (XGenerationPointt.Text != "" && YGenerationPoint.Text != "")
                 {
-                    x = Int32.Parse(XEntryPoint.Text);
-                    y = Int32.Parse(YEntryPoint.Text);
+                    x = Int32.Parse(XGenerationPointt.Text);
+                    y = Int32.Parse(YGenerationPoint.Text);
                     this._labyrinth.Generate(x, y);
                 }
                 else
@@ -60,8 +60,8 @@ namespace LABYRINTH
                     this._labyrinth.Generate();
                 }
                 
-                
-                
+                this.UpdateExtremities();
+
             }
             catch(Exception exception)
             {
@@ -73,6 +73,34 @@ namespace LABYRINTH
         private void ResolveButton_OnClick(object sender, RoutedEventArgs e)
         {
             this._labyrinth.Resolve();
+        }
+
+        private void UpdateExtremities()
+        {
+            try
+            {
+                if (XExitPoint.Text != "" && YExitPoint.Text != "")
+                {
+                    int x = Int32.Parse(XExitPoint.Text);
+                    int y = Int32.Parse(YExitPoint.Text);
+                    this._labyrinth.SetExitPoint(x, y);
+                }
+
+                if (XEntryPoint.Text != "" && YEntryPoint.Text != "")
+                {
+                    int x = Int32.Parse(XEntryPoint.Text);
+                    int y = Int32.Parse(YEntryPoint.Text);
+                    this._labyrinth.SetEntryPoint(x, y);
+                }
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+            }
+        }
+        private void UpdateButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.UpdateExtremities();
         }
     }
 }

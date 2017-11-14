@@ -21,6 +21,9 @@ namespace LABYRINTH
         private Canvas grid;
         private int size;
         private bool _visited;
+        private DIRECTION _direction;
+        private Rectangle highlight;
+        private Polygon triangle;
 
         public Cell(int posX, int posY,int size = 10)
         {
@@ -121,17 +124,6 @@ namespace LABYRINTH
         }
 
 
-        public void Highlight()
-        {
-            this._upperWall.Stroke = System.Windows.Media.Brushes.Blue;
-            this._upperWall.StrokeThickness = 4;
-            this._lowerWall.Stroke = System.Windows.Media.Brushes.Blue;
-            this._lowerWall.StrokeThickness = 4;
-            this._leftWall.Stroke = System.Windows.Media.Brushes.Blue;
-            this._upperWall.StrokeThickness = 4;
-            this._rightWall.Stroke = System.Windows.Media.Brushes.Blue;
-            this._lowerWall.StrokeThickness = 4;
-        }
 
         public void HighlightAsEntryPoint()
         {
@@ -148,16 +140,87 @@ namespace LABYRINTH
             this.Highlight(System.Windows.Media.Brushes.LightBlue);
         }
 
+        public void HighlightReset()
+        {
+            this.Highlight(System.Windows.Media.Brushes.White);
+        }
+
         public void Highlight(SolidColorBrush brush)
         {
-            Rectangle rectangle = new Rectangle();
-            rectangle.Height = this.size -2;
-            rectangle.Width =  this.size -2;           
-            // Create a blue and a black Brush
-            rectangle.Fill = brush;
-            this.grid.Children.Add(rectangle);
-            Canvas.SetLeft(rectangle,this.clientPosX +1);
-            Canvas.SetTop(rectangle,this.clientPosY +1 );
+            if (this.highlight == null)
+            {
+                this.highlight = new Rectangle();
+                this.highlight.Height = this.size -2;
+                this.highlight.Width =  this.size -2;           
+                this.grid.Children.Add(this.highlight);
+                Canvas.SetLeft(this.highlight,this.clientPosX +1);
+                Canvas.SetTop(this.highlight,this.clientPosY +1 );
+            }
+            this.highlight.Fill = brush;
+        }
+
+        public enum DIRECTION
+        {
+            UP,
+            DOWN,
+            LEFT,
+            RIGHT
+        }
+
+        public void MarkDirection()
+        {
+            MarkDirection(this._direction);
+        }
+
+        public void MarkDirection(DIRECTION direction)
+        {
+            PointCollection myPointCollection = new PointCollection();
+            switch (direction)
+            {
+                    case DIRECTION.UP :
+                        myPointCollection.Add(new Point(0,0));
+                        myPointCollection.Add(new Point(2,0));
+                        myPointCollection.Add(new Point(1,2));
+                        break;
+                    case DIRECTION.DOWN : 
+                        myPointCollection.Add(new Point(0,2));
+                        myPointCollection.Add(new Point(2,2));
+                        myPointCollection.Add(new Point(1,0));
+                        break;
+                    case DIRECTION.LEFT : 
+                        myPointCollection.Add(new Point(0,0));
+                        myPointCollection.Add(new Point(2,1));
+                        myPointCollection.Add(new Point(0,2));
+                        break;
+                    case DIRECTION.RIGHT : 
+                        myPointCollection.Add(new Point(0,1));
+                        myPointCollection.Add(new Point(2,0));
+                        myPointCollection.Add(new Point(2,2));
+                        break;
+            }
+            
+            this.triangle = new Polygon();
+            this.triangle.Points = myPointCollection;
+            this.triangle.Width = this.size/2 ;
+            this.triangle.Height = this.size / 2;
+            this.triangle.Stretch = Stretch.Fill;
+            this.triangle.Stroke = Brushes.Black;
+            this.triangle.StrokeThickness = 2;
+            this.grid.Children.Add(triangle);
+            Canvas.SetLeft(this.triangle,this.clientPosX + (this.size/4));
+            Canvas.SetTop(this.triangle,this.clientPosY + (this.size/4) );
+        }
+
+        public void Reset()
+        {
+            this.grid.Children.Remove(this.triangle);
+            this.HighlightReset();
+        }
+
+        public DIRECTION Direction
+        {
+            get { return _direction; }
+            set { _direction = value; }
         }
     }
 }

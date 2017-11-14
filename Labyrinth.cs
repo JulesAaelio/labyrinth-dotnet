@@ -16,6 +16,7 @@ using System.Windows.Controls;
          private Cell _endPoint;
          private Stack<Cell> path = new Stack<Cell>();
          private List<Cell> nogo = new List<Cell>();
+         private int size;
  
          /// <summary>
          /// Create a graphical labyrinht with size * size area.
@@ -24,12 +25,13 @@ using System.Windows.Controls;
          /// <param name="size"> Size on one dimension on the labyrith .</param>
          public Labyrinth(Canvas grid, int size = 10)
          {
-             this.cells = new Cell[size,size];
+             this.size = size;
+             this.cells = new Cell[this.size,this.size];
              for (int x = 0; x < cells.GetLength(0); x++)
              {
                  for (int y = 0; y < cells.GetLength(1); y++)
                  {
-                     this.cells[x,y] = new Cell(x,y,grid,40);
+                     this.cells[x,y] = new Cell(x,y,grid,(int)(SystemParameters.PrimaryScreenHeight/(this.size + this.size/10)));
                  }
              }             
          }
@@ -53,12 +55,9 @@ using System.Windows.Controls;
              Stack<Cell> history = new Stack<Cell>();
              Random randomGen = new Random();
              
-             currentCell = cells[x, y];
-             this._entryPoint = currentCell;
-             this._endPoint = cells[0,0];
-             this._endPoint.HighlightAsExitPoint();
-             
-             currentCell.HighlightAsEntryPoint();
+             currentCell = this.cells[x, y];
+             this.SetEntryPoint(currentCell);
+             this.SetEndPoint(this.cells[0,0]);
              bool exit = false;
 
              while (exit == false)
@@ -93,6 +92,7 @@ using System.Windows.Controls;
          
          public void Resolve()
          {
+             this.Reset();
              Cell currentCell = null;
              Cell neighborCell = null; 
              Random randomGen = new Random();
@@ -107,6 +107,7 @@ using System.Windows.Controls;
                  {
                      path.Push(currentCell);
                      neighborCell = neigbors[randomGen.Next(neigbors.Count)];
+                     currentCell.Direction = this.getDirection(currentCell, neighborCell);
                      currentCell = neighborCell;
                  }
                  else
@@ -122,14 +123,24 @@ using System.Windows.Controls;
                      }
                      
                  }
-                 
              }
 
              foreach (var cell in path)
              {
                  cell.HighlightAsPathMember();
+                 cell.MarkDirection();
                  this._entryPoint.HighlightAsEntryPoint();
              }
+         }
+
+         public void Reset()
+         {
+             this.nogo.Clear();
+             foreach (var cell in path)
+             {
+                 cell.Reset();
+             }
+             this.path.Clear();
          }
          
          /// <summary>
@@ -241,5 +252,63 @@ using System.Windows.Controls;
                  cellA.BreakLowerWall();
              }
          }
+
+         private Cell.DIRECTION getDirection(Cell cellA, Cell cellB)
+         {
+             if (cellA.PosX < cellB.PosX)
+                 return Cell.DIRECTION.LEFT;
+             if (cellA.PosX > cellB.PosX)
+                 return Cell.DIRECTION.RIGHT;
+             if (cellA.PosY < cellB.PosY)
+                 return Cell.DIRECTION.UP;
+             
+                 return Cell.DIRECTION.DOWN;
+             
+         }
+
+         public void SetEntryPoint(Cell cell)
+         {
+             if (this._entryPoint != null)
+             {
+                 this._entryPoint.HighlightReset();
+             }
+             this._entryPoint = cell;
+             this._entryPoint.HighlightAsEntryPoint();
+         }
+         
+         public void SetEndPoint(Cell cell)
+         {
+             if (this._endPoint != null)
+             {
+                 this._endPoint.HighlightReset();
+             }
+             this._endPoint = cell;
+             this._endPoint.HighlightAsExitPoint();
+         }
+
+         public void SetEntryPoint(int x, int y)
+         {
+             if (x < this.Size && y < this.size)
+             {
+                 this.SetEntryPoint(this.cells[x,y]);
+             }
+             else
+             {
+                 throw new Exception("Le point d'entrée spécifié n'existe pas");
+             }
+         }
+         public void SetExitPoint(int x, int y)
+         {
+             if (x < this.Size && y < this.size)
+             {
+                 this.SetEndPoint(this.cells[x, y]);
+             }
+             else
+             {
+                 throw new Exception("Le point de sortier spécifié n'existe pas");
+             }
+         }
+
+         public int Size => size;
      }
  }

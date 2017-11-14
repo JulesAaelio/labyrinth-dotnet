@@ -5,16 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LABYRINTH"
         mc:Ignorable="d"
-        Title="JULES LAURENT - LABYRINTH" Height="600" Width="600">
+        Title="JULES LAURENT - LABYRINTH" Height="{x:Static SystemParameters.PrimaryScreenHeight}" Width="{x:Static SystemParameters.PrimaryScreenWidth}"
+        WindowStartupLocation="CenterScreen">
     <Grid x:Name="Grille">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="400" />
-            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="9*" />
+            <ColumnDefinition Width="3*" />
         </Grid.ColumnDefinitions>
         
         <Canvas Grid.Column="0" x:Name="Canvas" ></Canvas>
-        <Grid Grid.Column="1" x:Name="ControlsGrid">
+        <Grid HorizontalAlignment="Right" Grid.Column="1" x:Name="ControlsGrid">
             <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
@@ -24,11 +30,23 @@
                 <RowDefinition Height="15*" />
             </Grid.RowDefinitions>
             
-            
             <Label Grid.Row="0">Taille du labyrinthe</Label>
             <TextBox Grid.Row="1" x:Name="Size"></TextBox>
-            <Label Grid.Row="2">Point d'entrée</Label>
-            <Grid Grid.Row="3" x:Name="EntryPointGrid">
+            <Label Grid.Row="2">Point de génération</Label>
+            <Grid Grid.Row="3" x:Name="GenerationPointGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">X</Label>
+                <TextBox Grid.Column="1"  x:Name="XGenerationPointt"></TextBox>
+                <Label Grid.Column="2">Y</Label>
+                <TextBox Grid.Column="3" x:Name="YGenerationPoint"></TextBox>
+            </Grid>
+            <Label Grid.Row="4">Point d'entrée</Label>
+            <Grid Grid.Row="5" x:Name="EntryPointGrid">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*" />
                     <ColumnDefinition Width="1*" />
@@ -40,8 +58,23 @@
                 <Label Grid.Column="2">Y</Label>
                 <TextBox Grid.Column="3" x:Name="YEntryPoint"></TextBox>
             </Grid>
-            <Button  Grid.Row="4" x:Name="GenerateButton" Click="GenerateButton_OnClick">GENERER</Button>
-            <Button  Grid.Row="5" x:Name="ResolveButton" Click="ResolveButton_OnClick">RESOUDRE</Button>
+            <Label Grid.Row="6">Point de sortie</Label>
+            <Grid Grid.Row="7" x:Name="ExitPointGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">X</Label>
+                <TextBox Grid.Column="1"  x:Name="XExitPoint"></TextBox>
+                <Label Grid.Column="2">Y</Label>
+                <TextBox Grid.Column="3" x:Name="YExitPoint"></TextBox>
+            </Grid>
+            
+            <Button  Grid.Row="8" x:Name="UpdateButton" Click="UpdateButton_OnClick">Mettre à jour les extremités</Button>
+            <Button  Grid.Row="9" x:Name="GenerateButton" Click="GenerateButton_OnClick">GENERER</Button>
+            <Button  Grid.Row="10" x:Name="ResolveButton" Click="ResolveButton_OnClick">RESOUDRE</Button>
         </Grid>
         
     </Grid>
