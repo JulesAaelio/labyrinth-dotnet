@@ -25,6 +25,14 @@ namespace LABYRINTH
         private Rectangle highlight;
         private Polygon triangle;
 
+        public enum DIRECTION
+        {
+            UP,
+            DOWN,
+            LEFT,
+            RIGHT
+        }
+        
         public Cell(int posX, int posY,int size = 10)
         {
             this.posX = posX;
@@ -81,12 +89,7 @@ namespace LABYRINTH
             return this._visited;
         }
 
-        public bool IsSquare()
-        {
-            return (this.IsLeftWallRaised() && this.IsRightWallRaised() && this.IsUpperWallRaised() &&
-                    this.IsLowerWallRaised());
-        }
-
+        
         public void BreakLowerWall()
         {
             this.grid.Children.Remove(this._lowerWall);
@@ -107,24 +110,9 @@ namespace LABYRINTH
             this.grid.Children.Remove(this._rightWall);
         }
 
-        public int PosX
-        {
-            get { return posX; }
-        }
-
-        public int PosY
-        {
-            get { return posY; }
-        }
-
-        public bool Visited
-        {
-            get { return _visited; }
-            set { _visited = value; }
-        }
-
-
-
+        
+        
+        
         public void HighlightAsEntryPoint()
         {
            this.Highlight(System.Windows.Media.Brushes.LightGreen);
@@ -145,6 +133,10 @@ namespace LABYRINTH
             this.Highlight(System.Windows.Media.Brushes.White);
         }
 
+        /// <summary>
+        /// Change the cell background cikir
+        /// </summary>
+        /// <param name="brush">color</param>
         public void Highlight(SolidColorBrush brush)
         {
             if (this.highlight == null)
@@ -159,19 +151,16 @@ namespace LABYRINTH
             this.highlight.Fill = brush;
         }
 
-        public enum DIRECTION
-        {
-            UP,
-            DOWN,
-            LEFT,
-            RIGHT
-        }
-
         public void MarkDirection()
         {
             MarkDirection(this._direction);
         }
 
+        
+        /// <summary>
+        /// Draw a triangle that point to the next cell in the exit path
+        /// </summary>
+        /// <param name="direction"></param>
         public void MarkDirection(DIRECTION direction)
         {
             PointCollection myPointCollection = new PointCollection();
@@ -211,6 +200,9 @@ namespace LABYRINTH
             Canvas.SetTop(this.triangle,this.clientPosY + (this.size/4) );
         }
 
+        /// <summary>
+        /// Remove the directions and set the background to default
+        /// </summary>
         public void Reset()
         {
             this.grid.Children.Remove(this.triangle);
@@ -221,6 +213,22 @@ namespace LABYRINTH
         {
             get { return _direction; }
             set { _direction = value; }
+        }
+        
+        public int PosX
+        {
+            get { return posX; }
+        }
+
+        public int PosY
+        {
+            get { return posY; }
+        }
+
+        public bool Visited
+        {
+            get { return _visited; }
+            set { _visited = value; }
         }
     }
 }

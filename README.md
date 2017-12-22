@@ -1,5 +1,11 @@
-#.NET LABYRINH by JulesAaelio 
+#.NET LABYRINH by Jules
 
-###V1
-The labyrinth is auto generated with a random entry point. 
+[ x ] The labyrinth generate itself perfectly.
+
+[ x ] We can change size 
+
+[ x ] We can change entry and exit points 
+
+[ x ] We can show solution
+
 

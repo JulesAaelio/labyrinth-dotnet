@@ -76,6 +76,5 @@
             <Button  Grid.Row="9" x:Name="GenerateButton" Click="GenerateButton_OnClick">GENERER</Button>
             <Button  Grid.Row="10" x:Name="ResolveButton" Click="ResolveButton_OnClick">RESOUDRE</Button>
         </Grid>
-        
     </Grid>
 </Window>

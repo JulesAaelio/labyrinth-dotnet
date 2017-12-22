@@ -32,7 +32,6 @@ namespace LABYRINTH
             this._labyrinth = new Labyrinth(Canvas,10);
             this._labyrinth.Generate();
         }
-
         private void GenerateButton_OnClick(object sender, RoutedEventArgs e)
         {
             Canvas.Children.Clear();
@@ -66,15 +65,8 @@ namespace LABYRINTH
             catch(Exception exception)
             {
                 MessageBox.Show(exception.Message);
-            }
-            
-        }
-
-        private void ResolveButton_OnClick(object sender, RoutedEventArgs e)
-        {
-            this._labyrinth.Resolve();
-        }
-
+            }            
+        }       
         private void UpdateExtremities()
         {
             try
@@ -101,6 +93,10 @@ namespace LABYRINTH
         private void UpdateButton_OnClick(object sender, RoutedEventArgs e)
         {
             this.UpdateExtremities();
+        }        
+        private void ResolveButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            this._labyrinth.Resolve();
         }
     }
 }

@@ -36,7 +36,6 @@ using System.Windows.Controls;
              }             
          }
 
-
          public void Generate()
          {
              Random randomGen = new Random();
@@ -45,6 +44,7 @@ using System.Windows.Controls;
              int j = randomGen.Next(this.cells.GetLength(1));
              Generate(i,j);
          }
+         
          /// <summary>
          /// Generate the perfect labyrinth. 
          /// </summary>
@@ -89,7 +89,6 @@ using System.Windows.Controls;
              
          }
 
-         
          public void Resolve()
          {
              this.Reset();
@@ -116,7 +115,7 @@ using System.Windows.Controls;
                      {
                          exit = true;
                      }
-                     else
+                     else //If the cell lead nowhere, then go back and store the cell as a nogo.
                      {
                          nogo.Add(currentCell);
                          currentCell = path.Pop();
@@ -133,6 +132,9 @@ using System.Windows.Controls;
              }
          }
 
+         /// <summary>
+         /// Reset cells and resolution (useful when entry and exits point changed
+         /// </summary>
          public void Reset()
          {
              this.nogo.Clear();
@@ -221,8 +223,7 @@ using System.Windows.Controls;
              
              return neighbors;
          }
-         
-        
+                
          /// <summary>
          /// Break the walls between two cells. 
          /// </summary>
@@ -297,6 +298,7 @@ using System.Windows.Controls;
                  throw new Exception("Le point d'entrée spécifié n'existe pas");
              }
          }
+         
          public void SetExitPoint(int x, int y)
          {
              if (x < this.Size && y < this.size)
