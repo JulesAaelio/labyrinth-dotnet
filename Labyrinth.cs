@@ -57,7 +57,7 @@ using System.Windows.Controls;
              
              currentCell = this.cells[x, y];
              this.SetEntryPoint(currentCell);
-             this.SetEndPoint(this.cells[0,0]);
+             this.SetExitPoint(this.cells[0,0]);
              bool exit = false;
 
              while (exit == false)
@@ -277,7 +277,7 @@ using System.Windows.Controls;
              this._entryPoint.HighlightAsEntryPoint();
          }
          
-         public void SetEndPoint(Cell cell)
+         public void SetExitPoint(Cell cell)
          {
              if (this._endPoint != null)
              {
@@ -303,7 +303,7 @@ using System.Windows.Controls;
          {
              if (x < this.Size && y < this.size)
              {
-                 this.SetEndPoint(this.cells[x, y]);
+                 this.SetExitPoint(this.cells[x, y]);
              }
              else
              {
