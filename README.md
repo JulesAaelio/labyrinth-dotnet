@@ -1,11 +1,14 @@
-#.NET LABYRINH by Jules
+# .NET LABYRINH by Jules
 
-[ x ] The labyrinth generate itself perfectly.
+DONTET School project 
+Automatic perfect labyrinth generation. 
 
-[ x ] We can change size 
+[X] The labyrinth generate itself perfectly.
 
-[ x ] We can change entry and exit points 
+[X] We can change size 
 
-[ x ] We can show solution
+[X] We can change entry and exit points 
+
+[X] We can show solution
 
 
